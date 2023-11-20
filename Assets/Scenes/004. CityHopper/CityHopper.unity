@@ -9764,7 +9764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showCreditsOnScreen: 1
   _tilesetSource: 1
-  _url: https://tile.googleapis.com/v1/3dtiles/root.json?key=AIzaSyCWNnQdtQxkgbpi8ccLyxjyQyyHTEAKdbg
+  _url: 
   _ionAssetID: 0
   _ionAccessToken: 
   _maximumScreenSpaceError: 16
