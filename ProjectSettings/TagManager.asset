@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Explosion
+  - BoundaryPlane
+  - Target
+  - Bullet
+  - Music
+  - ExplosionOnSurface
+  - ExplosionText
+  - PlayerTableRow
+  - TargetBase
+  - Tears
+  - BodyCollider
+  - HitCollider
+  - Target2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Colliders
+  - Water
+  - UI
+  - UIGameObject
+  - AR_Element
+  - ARDK_MockWorld
+  - ARMeshChunks
+  - CollidersAndSelf1
+  - PostProcessing
+  - CollidersAndSelf2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1849063817
+    locked: 0

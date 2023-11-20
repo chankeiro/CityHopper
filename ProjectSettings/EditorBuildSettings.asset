@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/000. Menu/Menu.unity
+    guid: 02f2fe9814495714b8b04b93f16f17e2
+  - enabled: 1
+    path: Assets/Scenes/001. Omigari/Omigari.unity
+    guid: 0fb11cc5f6f08e74591a069a87d25e16
+  - enabled: 1
+    path: Assets/Scenes/004. CityHopper/CityHopper.unity
+    guid: b0cf988335f329e41a2ee09ba9ce29b7
+  - enabled: 0
+    path: Assets/Scenes/003. SpaceBrewers/SpaceBrewers.unity
+    guid: 1ed15e9657253406185e4b2c7c5a4fc4
+  - enabled: 0
+    path: Assets/Scenes/002. KFC-demo/KFC-demo.unity
+    guid: 15ac71f9690f6e44cb6a5d9c625d0bfd
+  m_configObjects:
+    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: e60af1505f62ce848a9848ef01f13640,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ff4b818e506f3a0418793f3175958fc0,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 23a4359d05c3ee948b0b919739ed7acd,
+      type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 485a646dfde03c844898bea562eb1f68,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 653fde2dd2530b347b6b6f6a1edeee3d,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7bcf87cb8c73c1945b0bd5ac8183276c,
+      type: 2}
+    com.unity.xr.management.arcore_loader: {fileID: 11400000, guid: 58b746a64959c1d4eba5861887f61cc9,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b8cbd89485022964aa7a43f9f31845ec,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: efc6fbfe9ac28d04287fba0bcc6507c6,
+      type: 2}

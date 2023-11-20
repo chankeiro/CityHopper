@@ -1,0 +1,710 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: 000 - Fleepas_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 4633e28b29f41ec44b72f6f306518bc5, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 724767338817650723
+  m_TableData:
+  - m_Id: 83843805184
+    m_Localized: "M\xDALTIPLO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 383342276608
+    m_Localized: '<color=#068569FF><b><size=55>RONDA {matchRound} SUPERADA</size></b></color>
+
+      <size=20>
+      </size>
+
+      Puntos ronda <color=#068569FF>{roundScore}</color>
+
+      Puntos
+      necesarios <color=#F0276FFF>{nextRoundScoreThreshold}</color>
+
+      <size=20>
+      </size>
+
+      <size=30>PUNTOS PARTIDO <color=#068569FF>{totalScore}</color></size>'
+    m_Metadata:
+      m_Items:
+      - rid: 724767338817650723
+  - m_Id: 57579384008704
+    m_Localized: "\r<color=#F0276FFF>RONDA {matchRound}</color>\r\n<size=45>Puntos
+      ronda <color=#068569FF>{roundScore}</color></size>\r\n<size=45>Puntos necesarios
+      <color=#F0276FFF>{nextRoundScoreThreshold}</color></size>\r\n<size=15> </size>\r\n<size=30>PUNTOS
+      PARTIDO <color=#068569FF>{totalScore}</color></size>"
+    m_Metadata:
+      m_Items:
+      - rid: 724767338817650723
+  - m_Id: 66653207064576
+    m_Localized: RONDA {matchRound}
+    m_Metadata:
+      m_Items:
+      - rid: 724767338817650723
+  - m_Id: 78042206236672
+    m_Localized: Iniciando AR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78075836166144
+    m_Localized: "Por razones de seguridad,\ns\xE9 consciente de tu entorno en todo
+      momento"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78520520470528
+    m_Localized: 'Escanea el espacio
+
+      donde quieres jugar'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78742717919232
+    m_Localized: "El escaneo est\xE1 tardando demasiado. Si no puedes terminar en
+      unos segundos, es posible que:\n- Est\xE9s escaneando un espacio poco iluminado\n
+      - Que haya un problema con el sistema de realidad aumentada \n\nSi la luz ambiental
+      es suficiente, abandona esta sesi\xF3n y vuelve a intentarlo en una nueva."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80894622363648
+    m_Localized: '{0}% escaneado'
+    m_Metadata:
+      m_Items:
+      - rid: 724767338817650723
+  - m_Id: 86782141722624
+    m_Localized: "Comenzar\xE1s escaneando la zona en la que se desarrollar\xE1 el
+      juego.\n\nCol\xF3cate de 1 a 5 metros de los objetos a escanear y mu\xE9vete
+      lentamente a izquierda y derecha hasta que toda la zona est\xE9 cubierta por
+      una malla virtual de colores."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87611376594944
+    m_Localized: "SABER M\xC1S"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88595951710208
+    m_Localized: "- Este juego de realidad aumentada reacciona a las caracter\xEDsticas
+      f\xEDsicas del espacio en el que te encuentras. Antes de empezar el juego,
+      escanear\xE1s ese espacio durante unos segundos con tu dispositivo. El resultado
+      del escaneo ser\xE1 una representaci\xF3n en 3D de tu entorno.\n\n- Para escanear,
+      col\xF3cate a una distancia de entre 1 y 5 metros de los objetos a los que
+      est\xE9s apuntando y mu\xE9vete de izquierda a derecha por la zona en la que
+      quieras jugar. Debes hacerlo muy despacio, hasta que todo quede cubierto por
+      una malla virtual. \n\n- T\xF3mate tu tiempo para escanear los objetos importantes,
+      superficies o cualquier otra caracter\xEDstica relevante. Una representaci\xF3n
+      adecuada de la zona de juego es la clave para disfrutar de una experiencia
+      realista. \n\n- Evita escanear objetos en movimiento (personas, mascotas, coches,
+      etc.), ya que no estar\xE1n en el mismo lugar una vez que comience el juego,
+      lo que podr\xEDa provocar efectos extra\xF1os durante la partida.\n\n-Mant\xE9n
+      siempre dentro del foco de la c\xE1mara alg\xFAn objeto con caracter\xEDsticas
+      marcadas (colores de alto contraste, patrones no repetitivos, sin brillos ni
+      reflejos). Si la c\xE1mara s\xF3lo ve un suelo o una pared plana, perder\xE1
+      todas sus referencias y el escaneo se ver\xE1 afectado negativamente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89990809448448
+    m_Localized: ENTENDIDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90070425726976
+    m_Localized: BIEN HECHO!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90135529713664
+    m_Localized: "Sigue escaneando para aumentar el \xE1rea de juego o pulsa OK para
+      continuar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90336579481600
+    m_Localized: "ESCANEAR M\xC1S"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90759067529216
+    m_Localized: FINALIZAR ESCANEO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90928492244992
+    m_Localized: REINICIAR ESCANEO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249466917154816
+    m_Localized: "Comparte un breve v\xEDdeo de la \xFAltima ronda en tu app favorita
+      y consigue un bonus del <color=#EED592FF>+{0}%</color> para la pr\xF3xima!!\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249656780713984
+    m_Localized: VOLVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249868022640640
+    m_Localized: "Espera unos segundos mientras se genera el v\xEDdeo\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249986817912832
+    m_Localized: CANCELAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250110558269440
+    m_Localized: "Se ha producido un error al generar el v\xEDdeo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250271598571520
+    m_Localized: "Gracias por compartir!!\nDisfruta de tu bonus del <color=#EED592FF>+{0}%</color>
+      en tu pr\xF3xima ronda.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253039138762752
+    m_Localized: "El video no se ha compartido. Por favor, int\xE9ntalo de nuevo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254483275378688
+    m_Localized: "Esta aplicaci\xF3n no est\xE1 instalada en tu m\xF3vil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254883906908160
+    m_Localized: "Gracias por ver el anuncio.\\nTendr\xE1s un bonus del <b><color=#EED592FF>+{0}%</color></b>
+      en la pr\xF3xima ronda.\n"
+    m_Metadata:
+      m_Items:
+      - rid: 724767338817650723
+  - m_Id: 255124068560896
+    m_Localized: JUGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255232440987648
+    m_Localized: 'El anuncio no se ha cargado
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255314087309312
+    m_Localized: "Visualiza un anuncio o comparte un v\xEDdeo para conseguir un bonus
+      del <b><color=#EED592FF>+{0}%</color></b> en la pr\xF3xima ronda\n"
+    m_Metadata:
+      m_Items:
+      - rid: 724767338817650723
+  - m_Id: 255787024445440
+    m_Localized: ANUNCIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255870092636160
+    m_Localized: COMPARTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 256173932212224
+    m_Localized: JUGAR SIN\nBONUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272325282557952
+    m_Localized: "Comparte tu \xFAltimo partido de omigARi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272578006151168
+    m_Localized: "Mira mi \xFAltimo partido de omigARi!!\\nPuedes jugar en Fleepas.
+      Desc\xE1rgalo desde "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277203576877056
+    m_Localized: "\xA1Est\xE1s listo para jugar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277258694225920
+    m_Localized: JUGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277531906994176
+    m_Localized: "C\xD3MO JUGAR"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277772769095680
+    m_Localized: HAS GANADO UN PREMIO!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278177955639296
+    m_Localized: "TU POSICI\xD3N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278530247815168
+    m_Localized: "UN NUEVO OMIGARI EST\xC1 LLEGANDO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278683679649792
+    m_Localized: NUEVA HABILIDAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279094629167104
+    m_Localized: VIDA EXTRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279309117485056
+    m_Localized: 'INICIAR UN
+
+      NUEVO PARTIDO'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281493531979776
+    m_Localized: El anuncio no se ha cargado pero igualmente has conseguido una vida
+      extra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281865247977472
+    m_Localized: SIGUIENTE RONDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282867594358784
+    m_Localized: "El partido actual terminar\xE1 y se guardar\xE1 su puntuaci\xF3n
+      total. \xBFEst\xE1s seguro de que quieres empezar un nuevo partido? "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282967360073728
+    m_Localized: "S\xCD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284700937220096
+    m_Localized: "Todav\xEDa puedes ver un anuncio para conseguir una vida extra.
+      \xBFEst\xE1s seguro de que quieres empezar un nuevo partido? "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285883332489216
+    m_Localized: "El anuncio no est\xE1 disponible\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285640478093312
+    m_Localized: SIGUIENTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286186186403840
+    m_Localized: "\xA1\xA1Felicidades por llegar a esta ronda!! \xBFTe lo est\xE1s
+      pasando bien?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288265357422592
+    m_Localized: ENVIAR CORREO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288545360769024
+    m_Localized: AHORA NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289458112622592
+    m_Localized: "Por favor, a\xF1ade aqu\xED tus comentarios:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289454157393920
+    m_Localized: Comentarios sobre Fleepas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299906715283456
+    m_Localized: "ATR\xC1S"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 302909283299328
+    m_Localized: "Gracias por ver el anuncio.\nRecibir\xE1s un bonus de puntos en
+      el pr\xF3ximo partido.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303421466537984
+    m_Localized: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303605940416512
+    m_Localized: "El anuncio no se ha cargado, pero igualmente recibes un bonus de
+      puntos en el pr\xF3ximo partido.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336359100968960
+    m_Localized: "Puntuaci\xF3n actual"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304007930900480
+    m_Localized: "M\xDASICA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336562537295872
+    m_Localized: "Tu mejor puntuaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327707392667648
+    m_Localized: "\xBFEst\xE1s seguro de que quieres salir del juego?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336680116219904
+    m_Localized: "Tu mejor posici\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338782494322688
+    m_Localized: "1\xBA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338805583966208
+    m_Localized: "2\xBA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338818938630144
+    m_Localized: "3\xBA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338830816899072
+    m_Localized: "\xBA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341562550317056
+    m_Localized: "1\xAA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341566438436864
+    m_Localized: "2\xAA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341568720138240
+    m_Localized: "3\xAA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341572209799168
+    m_Localized: "\xAA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342903817433088
+    m_Localized: puntos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343291199156224
+    m_Localized: HAS GANADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343313949061120
+    m_Localized: LIDERAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343315832303616
+    m_Localized: PUEDES GANAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344274037829632
+    m_Localized: "posici\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344830206734336
+    m_Localized: y
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344983550488576
+    m_Localized: "De la {0} a la {1} posici\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345689833533440
+    m_Localized: ' (Quedan {0})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345968909938688
+    m_Localized: No se han configurado premios para este FleepSite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402933728079872
+    m_Localized: +1s Reloj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402980360351744
+    m_Localized: "Tama\xF1o Papel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 406788129878016
+    m_Localized: "Cargando v\xEDdeo. Por favor, espera un momento..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435696141266944
+    m_Localized: Ronda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 436041143742464
+    m_Localized: bloqueado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 442762071306240
+    m_Localized: REINICIAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443398162673664
+    m_Localized: "\xA1Convierte este escaneo en un Fleepsite permanente para que
+      t\xFA y tus amigos pod\xE1is jugar tantas veces como quer\xE1is!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443779055808512
+    m_Localized: CREAR FLEEPSITE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443803953197056
+    m_Localized: NO, GRACIAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443963408052224
+    m_Localized: "Comprobemos primero el escaeno. \xBFEst\xE1n saliendo omigARis
+      de las zonas que esperabas?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444143364665344
+    m_Localized: "S\xCD, EL ESCANEO ES CORRECTO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444313942814720
+    m_Localized: NO, DEBO VOLVER A ESCANEAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446037227139072
+    m_Localized: "Selecciona un punto de referencia para que t\xFA u otros usuarios
+      pod\xE1is encontrar el FleepSite. Debe ser:\n\n- F\xE1cilmente identificable.\n\n-
+      Con caracter\xEDsticas visuales n\xEDtidas (zonas con contraste, patrones no
+      repetitivos, sin brillos ni reflejos).\n\n- No debe cambiar con el tiempo.
+      No utilices un veh\xEDculo o cualquier otro objeto que pueda moverse con facilidad.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447311079206912
+    m_Localized: "Se ha producido un problema t\xE9cnico con tu dispositivo. Desafortunadamente,
+      esta sesi\xF3n no puede continuar.\n\nSal del juego ahora y vuelve a intentarlo
+      en unos minutos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448152565641216
+    m_Localized: "\rTu conexi\xF3n a Internet no funciona o es muy lenta.\n\nPor
+      favor, verifica que tu red funciona correctamente e int\xE9ntalo de nuevo.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448458196185088
+    m_Localized: "No es posible conectar a Internet. Por favor, comprueba que tu
+      conexi\xF3n de red funciona correctamente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 606193000837120
+    m_Localized: 'CANCELAR
+
+      FLEEPSITE & JUGAR'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 606298038792192
+    m_Localized: Procesando. Por favor, espera unos segundos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 606638716940288
+    m_Localized: "Selecciona la imagen que mejor represente el punto de referencia.
+      Esta imagen se mostrar\xE1 a los usuarios para que sepan qu\xE9 zonas escanear
+      para empezar a jugar.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 606969802715136
+    m_Localized: SELECCIONAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 610812082974720
+    m_Localized: "Puedes editar estos y \notros par\xE1metros en el Men\xFA\n \"Cuenta/Mis
+      FleepSites\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611255995527168
+    m_Localized: "1. Introduce un nombre o descripci\xF3n para tu Fleepsite. Intenta
+      que sea corto y reconocible para otros usuarios:\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611625371103232
+    m_Localized: Introduce el nombre del Fleepsite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611773211930624
+    m_Localized: Uso de un caracter incorrecto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611824625709056
+    m_Localized: "M\xEDnimo de 6 caracteres no alcanzado"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611868191944704
+    m_Localized: "M\xE1ximo de 130 caracteres alcanzado"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 612744428187648
+    m_Localized: "2. Desmarca este interruptor si no quieres que ning\xFAn otro usuario
+      tenga acceso a este FleepSite:\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 612971121930240
+    m_Localized: "P\xDABLICO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613055377108992
+    m_Localized: PRIVADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613272264568832
+    m_Localized: "3. Elige la fecha de finalizaci\xF3n del FleepSite (m\xE1ximo un
+      a\xF1o):"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613842178207744
+    m_Localized: CREAR FLEEPSITE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 632456855875584
+    m_Localized: Por favor, espera unos segundos mientras tu FleepSite se crea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 632680374530048
+    m_Localized: "FleepSite creado con \xE9xito"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 632864072462336
+    m_Localized: PRUEBA TU FLEEPSITE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 633305799782400
+    m_Localized: "Se ha producido un problema al acceder a la ubicaci\xF3n de tu
+      dispositivo.\n\nComprueba que el GPS est\xE1 activado y que te encuentras en
+      un lugar con buena se\xF1al antes de volver a intentarlo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 633575745187840
+    m_Localized: INTENTAR DE NUEVO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 633966448799744
+    m_Localized: "El mapeo de la posici\xF3n est\xE1 tardando demasiado. Prueba a
+      mover el marcador a otro lugar con caracter\xEDsticas visuales m\xE1s n\xEDtidas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634464388182016
+    m_Localized: "Apunta la c\xE1mara al objeto o espacio que aparece en la imagen
+      para localizar tu tel\xE9fono."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636525007794176
+    m_Localized: "Se est\xE1 reiniciando el sistema de mapeo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636741467435008
+    m_Localized: "Demasiado oscuro. Mu\xE9vete a una zona con m\xE1s luz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636743849799680
+    m_Localized: "Demasiado oscuro. Mu\xE9vete a una zona con m\xE1s luz.\n\nAseg\xFArate
+      que la c\xE1mara no est\xE1 bloqueada en la configuraci\xF3n del sistema."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636745527521280
+    m_Localized: "No se reconoce nada. Mueve tu c\xE1mara a una zona con m\xE1s textura
+      o color."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636746731286528
+    m_Localized: "Te est\xE1s moviendo demasiado r\xE1pido."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636748010549248
+    m_Localized: "Referencias visuales perdidas. Mu\xE9vete lentamente a una \xE1rea
+      con texturas y mejor iluminada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 637828656197632
+    m_Localized: "Pulsa sobre cualquier punto situado en el espacio previamente escaneado.\n\nDebe
+      ser reconocible para otros usuarios, con caracter\xEDsticas visuales n\xEDtidas
+      y que no cambien con el tiempo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638094109503488
+    m_Localized: Ese punto no ha sido escaneado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638647858294784
+    m_Localized: "Demasiado cerca, al\xE9jate un poco."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638652321034240
+    m_Localized: "Demasiado lejos, ac\xE9rcate un poco."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638653734514688
+    m_Localized: "Est\xE1s mirando desde arriba. Hazlo desde todos los lados."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638654837616640
+    m_Localized: "M\xFAevete lentamente alrededor del marcador para capturarlo por
+      todos sus lados."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639278979411968
+    m_Localized: "Este punto no ha podido ser guardado. Int\xE9ntalo con otro punto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639283316322304
+    m_Localized: "El FleepSite no se ha guardado debido a un problema interno.\n\nPor
+      favor, int\xE9ntalo de nuevo en unos minutos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639284218097664
+    m_Localized: "Este FleepSite ya no existe. No puede ser cargado.\n\nPor favor,
+      int\xE9ntalo con otro FleepSite."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639284989849600
+    m_Localized: "El FleepSite no ha podido cargarse.\n\nPor favor, int\xE9ntalo
+      de nuevo en unos minutos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639285900013568
+    m_Localized: "El FleepSite no se ha creado debido a un problema interno.\n\nPor
+      favor, int\xE9ntalo de nuevo en unos minutos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642079423918080
+    m_Localized: "El FleeoSite no est\xE1 activado.\n\nPor favor, hablar con el creador
+      del FleepSite."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642204456120320
+    m_Localized: "Se ha producido un problema al cargar los datos del FleepSite.\n\nPor
+      favor, int\xE9ntalo de nuevo en unos minutos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14088642963894272
+    m_Localized: "Tu objetivo es capturar el mayor n\xFAmero de deliciosas bebidas
+      de Hijos de Rivera para tus reservas espaciales. Estrella Galicia, Maeloc o
+      Cabreiro\xE1, necesitar\xE1s de todo. \n\nPara ello tendr\xE1s que teletransportarlas
+      desde la f\xE1brica central de la Galaxia dispar\xE1ndoles con tu rayo l\xE1ser
+      especial."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14089058401316864
+    m_Localized: "Botellas como esta sabrosa Estrella Galicia multiplicar\xE1n tu
+      puntuaci\xF3n por 1."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14089191830515712
+    m_Localized: "Prioriza los grandes barriles como el de la imagen, ya que multiplicar\xE1n
+      tu puntuaci\xF3n por 3."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14089274324086784
+    m_Localized: "Ten cuidado con los Robots aliel\xEDgenas llegados de otras galaxias
+      para robarte tus reservas.\n\nDisp\xE1rales para aumentar tu experiencia y
+      as\xED conseguir mayores puntuaciones.\n\n\n\n\n\n\n\n\n\n\nApunta a su esfera
+      central de atracci\xF3n, ya que es el punto donde les har\xE1s m\xE1s da\xF1o."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14113173543776256
+    m_Localized: assets/Fleeps/1/OmigariMiniTrailer_opt.mp4
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 724767338817650723
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00f0fa405900000000f0ba3e5e34000000f0bae89e3c000000f03abf9249000000f0bac8d0e7000000f07af134e80000

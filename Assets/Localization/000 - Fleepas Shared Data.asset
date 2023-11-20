@@ -1,0 +1,608 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: 000 - Fleepas Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: 000 - Fleepas
+  m_TableCollectionNameGuidString: 4633e28b29f41ec44b72f6f306518bc5
+  m_Entries:
+  - m_Id: 83843805184
+    m_Key: Omigari/Canvas/ScoreClock/MultiplierBlock/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 383342276608
+    m_Key: next_round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57579384008704
+    m_Key: game_over_message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66653207064576
+    m_Key: round_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78042206236672
+    m_Key: Omigari/Canvas/ARMessage/Background/Text1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78075836166144
+    m_Key: Omigari/Canvas/ARMessage/Background/Text2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78520520470528
+    m_Key: Omigari/Canvas/ScanningProgress/ScanMessage/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78742717919232
+    m_Key: Omigari/Canvas/ScanningProgress/LongScanWarning/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80894622363648
+    m_Key: perc_scanned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86782141722624
+    m_Key: Omigari/Canvas/ScanInstructionsHost/InstructionsText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87611376594944
+    m_Key: learn_more_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88595951710208
+    m_Key: Omigari/Canvas/LearnMoreScreen/InstructionsText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89990809448448
+    m_Key: Omigari/Canvas/LearnMoreScreen/Understood Button/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90070425726976
+    m_Key: Omigari/Canvas/HostScanFinishedMessage/Text1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90135529713664
+    m_Key: Omigari/Canvas/HostScanFinishedMessage/Text2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90336579481600
+    m_Key: Omigari/Canvas/HostScanFinishedMessage/Text2/ScanButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90759067529216
+    m_Key: Omigari/Canvas/HostScanFinishedMessage2/FinishScan/FinishScanButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90928492244992
+    m_Key: restart_scan_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249466917154816
+    m_Key: main_sharing_message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249656780713984
+    m_Key: 'back_label
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249868022640640
+    m_Key: Omigari/Canvas/SharedVideoScreens/WaitMessage/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249986817912832
+    m_Key: cancel_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250110558269440
+    m_Key: Omigari/Canvas/SharedVideoScreens/VideoGenerationFailedMessage/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250271598571520
+    m_Key: video_shared_message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253039138762752
+    m_Key: Omigari/Canvas/SharedVideoScreens/VideoNotSharedScreen/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254483275378688
+    m_Key: Omigari/Canvas/SharedVideoScreens/NoAppInstalledAlert/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254883906908160
+    m_Key: ad_showed_screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255124068560896
+    m_Key: play_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255232440987648
+    m_Key: Omigari/Canvas/PreMatchScreens/AdFailedScreen/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255314087309312
+    m_Key: main_prematch_screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255787024445440
+    m_Key: ad_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255870092636160
+    m_Key: share_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 256173932212224
+    m_Key: Omigari/Canvas/PreMatchScreens/MainPreMatchScreen/PlayGameButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272325282557952
+    m_Key: shared_video_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 272578006151168
+    m_Key: shared_video_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277203576877056
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerStartGame/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277258694225920
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerStartGame/StartGameButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277531906994176
+    m_Key: how_to_play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 277772769095680
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerFleepSitePrize/SinglePlayerFleepSitePrizeMessage/PrizeBlock/YouGetAPrizeText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278177955639296
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerFleepSiteRanking/PositionBlock/YouGetAPrizeText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278530247815168
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerBirdPercentage/MainBlock/TitleText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278683679649792
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerNewSkill/MainBlock/TitleText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279094629167104
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerFinishedGame/TryAgainAd/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279309117485056
+    m_Key: start_new_match_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281493531979776
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerTryAgainAdFailed/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281865247977472
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerNextRound/Buttons/NextRoundButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282867594358784
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerRestartingRoundPassed/Background/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282967360073728
+    m_Key: yes_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284700937220096
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerRestartingRoundFailed/Background/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285640478093312
+    m_Key: next_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285883332489216
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerPowerUps/AdFailedScreen/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286186186403840
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerReviews/SPReviewFirstDialog/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288265357422592
+    m_Key: send_mail_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288545360769024
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerReviews/FeedbackDialog/Buttons/CancelButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289454157393920
+    m_Key: feedback_mail_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289458112622592
+    m_Key: feedback_mail_content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299906715283456
+    m_Key: back2_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 302909283299328
+    m_Key: Omigari/Canvas/SinglePlayerSettingsScreens/AdShowedScreenSPSettings/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303421466537984
+    m_Key: Omigari/Canvas/SinglePlayerSettingsScreens/AdShowedScreenSPSettings/Text/RestartButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 303605940416512
+    m_Key: Omigari/Canvas/SinglePlayerSettingsScreens/AdFailedScreenSPSettings/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304007930900480
+    m_Key: Omigari/Canvas/SinglePlayerSettingsScreens/SinglePlayerSettingsMenu/Background/Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327707392667648
+    m_Key: Omigari/Canvas/SinglePlayerSettingsScreens/SinglePlayerLeavingGame/Background/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336359100968960
+    m_Key: current_score_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336562537295872
+    m_Key: best_score_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336680116219904
+    m_Key: best_ranking_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338782494322688
+    m_Key: 1st
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338805583966208
+    m_Key: 2nd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338818938630144
+    m_Key: 3rd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338830816899072
+    m_Key: th
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341562550317056
+    m_Key: 1st_fem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341566438436864
+    m_Key: 2nd_fem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341568720138240
+    m_Key: 3rd_fem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341572209799168
+    m_Key: th_fem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342903817433088
+    m_Key: points_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343291199156224
+    m_Key: prizes_won_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343313949061120
+    m_Key: prizes_lead_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343315832303616
+    m_Key: prizes_other_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344274037829632
+    m_Key: position_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344830206734336
+    m_Key: and_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344983550488576
+    m_Key: between_positions_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345689833533440
+    m_Key: prize_amount_limit_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345968909938688
+    m_Key: no_prizes_configured_message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402933728079872
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerPowerUps/PowerUpsButtons/TimeButton/PowerUpName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402980360351744
+    m_Key: Omigari/Canvas/SinglePlayerScreens/SinglePlayerPowerUps/PowerUpsButtons/BallSizeButton/PowerUpName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 406788129878016
+    m_Key: Omigari/Canvas/Rules/Rules1/Trailer/LoadingVideoMessage/InstructionText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435696141266944
+    m_Key: round_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 436041143742464
+    m_Key: locked_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 442762071306240
+    m_Key: Omigari/Canvas/SinglePlayerSettingsScreens/SinglePlayerSettingsMenu/Background/WatchAdToRestartButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443398162673664
+    m_Key: Omigari/Canvas/CloudAnchorScreens/CloudAnchorPrompt/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443779055808512
+    m_Key: Omigari/Canvas/CloudAnchorScreens/CloudAnchorPrompt/OKButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443803953197056
+    m_Key: Omigari/Canvas/CloudAnchorScreens/CloudAnchorPrompt/KOButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443963408052224
+    m_Key: Omigari/Canvas/CloudAnchorScreens/CloudAnchorTestScan/Text1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444143364665344
+    m_Key: Omigari/Canvas/CloudAnchorScreens/CloudAnchorTestScan/ConfirmationButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444313942814720
+    m_Key: Omigari/Canvas/CloudAnchorScreens/CloudAnchorTestScan/CancelButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446037227139072
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostAnchorInstructionsMessage/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447311079206912
+    m_Key: Omigari/Canvas/CloudAnchorScreens/ArSessionErrorAlert/Background/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448152565641216
+    m_Key: no_network
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448458196185088
+    m_Key: Omigari/Canvas/CloudAnchorScreens/NetworkErrorMessage/Background/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 606193000837120
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CancelAndPlayButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 606298038792192
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/ProcessingAnchorMessage/InstructionText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 606638716940288
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorScreenShots/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 606969802715136
+    m_Key: select_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 610812082974720
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorDataPanel/Header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611255995527168
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorDataPanel/TextName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611625371103232
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorDataPanel/TextName/CloudAnchorInputField/Text
+      Area/Placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611773211930624
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorDataPanel/TextName/Warnings/IncorrectCharacterWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611824625709056
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorDataPanel/TextName/Warnings/ShortNameWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 611868191944704
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorDataPanel/TextName/Warnings/LongNameWarning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 612744428187648
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorDataPanel/TextPublic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 612971121930240
+    m_Key: public_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613055377108992
+    m_Key: private_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613272264568832
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorDataPanel/TextExpiration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613842178207744
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/CloudAnchorDataPanel/SaveButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 632456855875584
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/FleepSiteCreationWaitMessage/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 632680374530048
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/FleepSiteCreationSuccess/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 632864072462336
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/FleepSiteCreationSuccess/PlayButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 633305799782400
+    m_Key: no_location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 633575745187840
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/FleepSiteCreationFailure/TryAgainButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 633966448799744
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/LongMappingWarning/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634464388182016
+    m_Key: Omigari/Canvas/CloudAnchorScreens/HostResolveAnchorScreen/FleepSiteImage/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636525007794176
+    m_Key: fleepSite_relocalizing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636741467435008
+    m_Key: fleepSite_dark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636743849799680
+    m_Key: fleepSite_no_light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636745527521280
+    m_Key: fleepSite_no_feature
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636746731286528
+    m_Key: fleepSite_fast_motion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636748010549248
+    m_Key: fleepSite_tracking_lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 637828656197632
+    m_Key: fleepSite_initial_message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638094109503488
+    m_Key: fleepSite_location_not_scanned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638647858294784
+    m_Key: fleepSite_too_close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638652321034240
+    m_Key: fleepSite_too_far
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638653734514688
+    m_Key: fleeSite_top_view
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638654837616640
+    m_Key: fleepSite_basic_instructions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639278979411968
+    m_Key: fleepSite_error_hosting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639283316322304
+    m_Key: fleepSite_error_hosting_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639284218097664
+    m_Key: fleepSite_not_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639284989849600
+    m_Key: fleepSite_error_resolving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639285900013568
+    m_Key: fleepSite_error_creation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642079423918080
+    m_Key: fleepSite_not_enabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 642204456120320
+    m_Key: fleepSite_error_get_data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14088642963894272
+    m_Key: Geospatial/Canvas/Rules/Rules1/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14089058401316864
+    m_Key: Geospatial/Canvas/Rules/Rules2SP/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14089191830515712
+    m_Key: Geospatial/Canvas/Rules/Rules3/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14089274324086784
+    m_Key: Geospatial/Canvas/Rules/Rules4SP/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14113173543776256
+    m_Key: Omigari/Canvas/Rules/Rules1/Trailer
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 724767338817650712
+  references:
+    version: 2
+    RefIds:
+    - rid: 724767338817650712
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1696261391025
